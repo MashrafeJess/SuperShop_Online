@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0, 0, 0, 0.5)),
+    url('https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat:inherit;
+    background-size:cover;
+}
+.container{
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+    width: 15%;
+    /* justify-content: left; */
+}
+.a{
+    margin-left: 270px;
+    width: 150px;
+    /* border: 1px solid saddlebrown; */
+}
+.head{
+    margin: 70px auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 25px;
+    flex-basis: 25%;
+}
+.b{ 
+    border: 1px solid rebeccapurple;
+    margin-left: 190px;
+    width: 250px;
+    height: 270px;
+    text-align: center;
+    padding-top: 20px ;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: #5a5aff;
+    border-radius: 10px;
+}
+.lol{
+    text-decoration: none;
+    color: wheat;
+    font-size: 25px;
+    font-weight: bold;
+    box-sizing: border-box;
+    /* padding-right: 50px; */
+}
